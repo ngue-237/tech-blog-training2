@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <header>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
+    <link rel="stylesheet" href="style/reset-css.css" />
+    <link rel="stylesheet" href="style/style.css" />
+
     <title>Tech blog traininig2</title>
-  </header>
+  </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="index.html">Accueil</a>
-        <a href="#">Article</a>
-        <a href="#">A propos</a>
-        <a href="#">contact</a>
+    <header class="header">
+      <nav class="header-navbar">
+        <div class="header-navbar-link">
+          <a href="index.html">Accueil</a>
+          <a href="#" class="activated-link">Article</a>
+          <a href="#">A propos</a>
+          <a href="#">contact</a>
+        </div>
+        <div class="header-social-media">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
       </nav>
-      <div>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-      </div>
     </header>
+    <main>
+      <section>
+        <div class="card"></div>
+        <div><img src="images/card-image.jpg" alt="image logonedigital" /></div>
+        <div>
+          <h4>publié le 14 juin 2018</h4>
+          <h2>Le statut de Freelance</h2>
+          <p>
+            Dans un précédent podcast on s'était intéressé au métier de
+            développeur web de manière générale mais aujourd'hui je voulais me
+            focaliser sur le statut de freelance en particulier. Plutôt que de
+            faire une longue explication sur le statut, mon expér...
+          </p>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

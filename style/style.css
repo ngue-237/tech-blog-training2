@@ -1,0 +1,45 @@
+
+.header{
+    
+    height: 427px;
+    background-color: blue;
+    background-image: url("/images/banniere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 91px;
+    background: #fff;
+    justify-content: center;
+}
+.header-navbar-link a{
+    text-decoration: none;
+    color: #9F9F9F;
+    margin-right: 80px;
+}
+.header-navbar-link{
+    position: relative;
+    left: -250px;
+    width: 605px;
+}
+.header-social-media{
+    position: relative;
+    right: -300px;
+    
+}
+.header-social-media a{
+    padding: 10px 10px;
+    color: #9F9F9F;
+}
+.header-navbar-link a:hover{
+    color: #000;
+}
+.header-social-media a:hover{
+    color: #000;
+}
+.activated-link{
+    color: #000!important;
+}
