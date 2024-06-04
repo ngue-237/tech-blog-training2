@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+
 
 .header{
     
@@ -19,6 +26,7 @@
     text-decoration: none;
     color: #9F9F9F;
     margin-right: 80px;
+    margin-bottom: 17px;
 }
 .header-navbar-link{
     position: relative;
@@ -48,6 +56,10 @@
 .card{
     display: flex;
     flex-direction: row;
+    margin-top: 30px;
+}
+.card:first-child{
+    margin-top: 47px;
 }
 .card-content{
     margin-left: 20px;
@@ -58,6 +70,7 @@
     opacity: .6;
 }
 .card-content h2{
+    font-family: "cardo";
     font-size:36px;
     font-weight: 700;
 }
@@ -66,4 +79,32 @@
     font-weight: 500;
     line-height: 30px;
     text-align: justify;
+    opacity: .87;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+}
+.sidebar-link a{
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    color: #9F9F9F;
+    margin-bottom: 17px;
+}
+section{
+    width: 80%;
+}
+aside{
+    width: 20%;
+    background-color: #fbfbfb;
+    padding-top: 30px;
+    padding-left: 40px;
+    margin-left: 150px;
+}
+.sidebar-card h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
