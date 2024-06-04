@@ -43,3 +43,27 @@
 .activated-link{
     color: #000!important;
 }
+
+
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.card-content{
+    margin-left: 20px;
+}
+.card-content h4{
+    font-size:17px;
+    font-weight: 300;
+    opacity: .6;
+}
+.card-content h2{
+    font-size:36px;
+    font-weight: 700;
+}
+.card-content p{
+    font-size:16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: justify;
+}
